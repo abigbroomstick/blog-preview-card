@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/abigbroomstick/blog-preview-card](https://github.com/abigbroomstick/blog-preview-card)
+- Live Site URL: [https://abigbroomstick.github.io/blog-preview-card/](https://abigbroomstick.github.io/blog-preview-card/)
 
 ## My process
 I began by visualizing and structuring the HTML with semantic elements, ensuring a clean and organized layout. I used a <main> tag to wrap the content, and within it, a <section> for the card container. This contained an image, article details, and author information. I styled the card using CSS, focusing on a modern, clean design. I set a responsive layout with a flexbox, ensuring that elements aligned neatly. I implemented hover effects on the card and the title to add interactivity. Media queries were added to ensure the design was responsive, particularly for smaller screens.
