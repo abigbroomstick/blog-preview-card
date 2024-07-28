@@ -1,0 +1,113 @@
+/* CSS reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling starts from here */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Figtree', sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    padding: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    font-weight: 800;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);  
+}
+
+h5 {
+    font-size: 14px;
+}
+
+p {
+    color: hsl(0, 0%, 42%);
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.card-container {
+    max-width: 384px;
+    background-color: white;
+    padding: 24px;
+    margin: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 7px 7px black;
+    transition: box-shadow 0.3s;
+}
+
+.card-container:hover {
+    box-shadow: 15px 15px 0px black;
+}
+
+.card-top-img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-tag {
+    background-color: hsl(47, 88%, 63%);
+    width: 85px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.date {
+    font-weight: 400;
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-author {
+    display: flex;
+    align-items: center;
+}
+
+.card-author img {
+    width: 32px;
+    margin-right: 10px;
+    font-weight: 800;
+}
+
+/* Media Queries */
+@media (max-width: 375px) {
+    body {
+        margin-right: 0.9rem;
+        padding-bottom: 30px;
+    }
+
+    h2{
+        font-size: 1.25rem;
+    }
+
+    p{
+        font-size: 0.7rem;
+    }
+    .card-tag{
+        font-size: 0.8rem;
+    }
+
+}
